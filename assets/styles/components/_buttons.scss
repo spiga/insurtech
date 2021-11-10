@@ -1,0 +1,7 @@
+.btn-secondary{
+	color: color(light);
+	@include font-weight(black);
+	&:focus, &:hover{
+		color: color(light);
+	}
+}
